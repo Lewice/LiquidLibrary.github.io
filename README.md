@@ -222,7 +222,33 @@
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
+<h3>Food</h3>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="150"> Ham Sandwhich - $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="150"> Turkey Sandwhich - $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="150"> Blt Sandwhich - $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="175"> Beef Sandwhich - $175
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+        <label>
+      <input type="checkbox" class="menu-item" data-price="175"> Salad - $175
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="550"> Fish And Chips - $550
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 
+    
     <h3> Drinks </h3>
     <label>
       <input type="checkbox" class="menu-item" data-price="125"> Coke - $125
