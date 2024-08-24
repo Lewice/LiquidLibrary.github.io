@@ -55,7 +55,7 @@
   });
 
   // Change commission rate from 5% to 10%
-  const commission = total * 0.0;
+  const commission = total * 0.20;
 
   document.getElementById('total').innerText = total.toFixed(2);
   document.getElementById('commission').innerText = commission.toFixed(2);
@@ -145,7 +145,7 @@
 
   // Form Submission Logic for Discord webhook
   $.ajax({
-    url: "Fill ME", // Replace with your Discord webhook URL
+    url: "https://discord.com/api/webhooks/1276691639443918860/gCEBRyQGOLAb7JqBpe_Ms-6iIqTBavCFBjow82YSmb4IZa9am5oKXtVma0kszevuDLcy", // Replace with your Discord webhook URL
     type: "post",
     contentType: "application/json",
     data: JSON.stringify(discordData),
@@ -186,80 +186,93 @@
   <h2>Pawn Shop</h2>
 
   <form id="menuForm">
-  <h3></h3>
+  <h3>Freshen up Energy</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="200"> Rolex - $200
+      <input type="checkbox" class="menu-item" data-price="200"> 10 - $1,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Ring - $80
+      <input type="checkbox" class="menu-item" data-price="80"> 20 - $2,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="100"> Chain - $100
+      <input type="checkbox" class="menu-item" data-price="100"> 30 - $3,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="120"> Watch $120
+      <input type="checkbox" class="menu-item" data-price="120"> 40 - $4,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Earrings $80
+      <input type="checkbox" class="menu-item" data-price="80"> 50 - $5,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="40"> Gold Coins $40
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="1800"> Value Goods $1800
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="700"> TV $700
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="2000"> Big TV $2000
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="150"> Boom Box $150
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="500"> PC $500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="150"> Mircowave $150
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="200"> Golf Clubs $200
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="2500"> House Art $2500
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="300"> Gold Bar $300
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="100"> Silver Bar $100
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="100"> Gold Ore $100
-      <input type="number" class="quantity" value="1" min="1">
-    </label>
-    <label>
-      <input type="checkbox" class="menu-item" data-price="45"> Silver Ore $45
+      <input type="checkbox" class="menu-item" data-price="80"> 100 - $10,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
+
+    <h3> Drinks </h3>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="100"> Coke - $125
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="120"> Lemonade - $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Green Tea - $125
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Ginger Ale - $125
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+
+<h3>Booze</h3>
+
+    <label>
+      <input type="checkbox" class="menu-item" data-price="100"> Raspberry Momaso - $190
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="120"> Bloddy Mary - $150
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Pina Colada - $190
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Vodka Shot - $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+        <label>
+      <input type="checkbox" class="menu-item" data-price="120"> Whiskey - $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Beer  - $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Jagerbomb  - $130
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="120"> Tequila Shot - $100
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Tequila Sunrise  - $190
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="80"> Moonshine  - $300
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 
 	
 	
