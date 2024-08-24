@@ -183,94 +183,104 @@
 </head>
 <body>
 
-  <h2>Pawn Shop</h2>
+  <h2>Liquid Library</h2>
+
+    <h3>Specials</h3>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="2500"> Moonshine 10 For $2500
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
+    <label>
+      <input type="checkbox" class="menu-item" data-price="3000"> 5 Fish and chips - $3000
+      <input type="number" class="quantity" value="1" min="1">
+    </label>
 
   <form id="menuForm">
   <h3>Freshen up Energy</h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="200"> 10 - $1,500
+      <input type="checkbox" class="menu-item" data-price="1500"> 10 - $1,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> 20 - $2,500
+      <input type="checkbox" class="menu-item" data-price="2500"> 20 - $2,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="100"> 30 - $3,500
+      <input type="checkbox" class="menu-item" data-price="3500"> 30 - $3,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="120"> 40 - $4,500
+      <input type="checkbox" class="menu-item" data-price="4500"> 40 - $4,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> 50 - $5,500
+      <input type="checkbox" class="menu-item" data-price="5500"> 50 - $5,500
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> 100 - $10,000
+      <input type="checkbox" class="menu-item" data-price="10000"> 100 - $10,000
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 
     <h3> Drinks </h3>
     <label>
-      <input type="checkbox" class="menu-item" data-price="100"> Coke - $125
+      <input type="checkbox" class="menu-item" data-price="125"> Coke - $125
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="120"> Lemonade - $150
+      <input type="checkbox" class="menu-item" data-price="150"> Lemonade - $150
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Green Tea - $125
+      <input type="checkbox" class="menu-item" data-price="125"> Green Tea - $125
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Ginger Ale - $125
+      <input type="checkbox" class="menu-item" data-price="125"> Ginger Ale - $125
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
 <h3>Booze</h3>
 
     <label>
-      <input type="checkbox" class="menu-item" data-price="100"> Raspberry Momaso - $190
+      <input type="checkbox" class="menu-item" data-price="190"> Raspberry Momaso - $190
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="120"> Bloddy Mary - $150
+      <input type="checkbox" class="menu-item" data-price="150"> Bloddy Mary - $150
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Pina Colada - $190
+      <input type="checkbox" class="menu-item" data-price="190"> Pina Colada - $190
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Vodka Shot - $100
+      <input type="checkbox" class="menu-item" data-price="100"> Vodka Shot - $100
       <input type="number" class="quantity" value="1" min="1">
     </label>
         <label>
-      <input type="checkbox" class="menu-item" data-price="120"> Whiskey - $100
+      <input type="checkbox" class="menu-item" data-price="100"> Whiskey - $100
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Beer  - $100
+      <input type="checkbox" class="menu-item" data-price="100"> Beer  - $100
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Jagerbomb  - $130
+      <input type="checkbox" class="menu-item" data-price="130"> Jagerbomb  - $130
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="120"> Tequila Shot - $100
+      <input type="checkbox" class="menu-item" data-price="100"> Tequila Shot - $100
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Tequila Sunrise  - $190
+      <input type="checkbox" class="menu-item" data-price="190"> Tequila Sunrise  - $190
       <input type="number" class="quantity" value="1" min="1">
     </label>
     <label>
-      <input type="checkbox" class="menu-item" data-price="80"> Moonshine  - $300
+      <input type="checkbox" class="menu-item" data-price="300"> Moonshine  - $300
       <input type="number" class="quantity" value="1" min="1">
     </label>
 
