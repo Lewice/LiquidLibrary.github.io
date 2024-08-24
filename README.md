@@ -109,12 +109,12 @@
 
   // Form Submission Logic for Spreadsheet
   $.ajax({
-    url: "?",
+    url: "https://api.apispreadsheets.com/data/CvJIKRUSFq1OTS33/",
     type: "post",
     data: formData,
     headers: {
-      accessKey: "?",
-      secretKey: "?",
+      accessKey: "f0785973a2c61c7e6e58115a3aef270e",
+      secretKey: "d6689d9c5f9a28c2866f18bda48a3e33",
       "Content-Type": "application/x-www-form-urlencoded",
     },
     success: function () {
